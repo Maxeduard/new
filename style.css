@@ -1,0 +1,117 @@
+body {
+  background: #b1b3b4;
+  color: #647bce;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: lighter;
+}
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  color: #575F7D;
+  font-size: 28px;
+  font-weight: 900;
+  text-shadow: 2px 2px 8px #575F7D;
+}
+h2 {
+  color: #757e77;
+  font-size: 20px;
+  font-weight: lighter;
+  font-weight: 500;
+  text-shadow: 2px 2px 8px #575F7D;
+}
+h4 {
+  color: #757e77;
+  font-size: 20px;
+  font-weight: lighter;
+  font-weight: 500;
+}
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #6B72E1;
+  font-weight: 600;
+  font-size: 16px;
+}
+a:hover {
+  color: rgb(230, 29, 29);
+}
+
+.container .img-form:hover {
+  opacity: 0.3;
+}
+
+.container .middle:hover {
+  opacity: 1;
+}
+
+.container {
+  width: 700px;
+  margin: 10px auto;
+}
+
+
+.card {
+  background-color: rgb(238, 233, 233);
+  padding: 20px;
+  box-shadow: 4px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 6px;
+  margin: 20px 5px;
+  text-align: center;
+}
+.img-form {
+  border-radius: 30%;
+  backface-visibility: hidden;
+}
+
+.img-new{
+  border-radius: 10%;
+  position: relative;
+  opacity: 0.2;
+  height: 20px;
+  background-color: #575F7D;
+  border: 1px solid grey;
+}
+
+.img-new:hover {
+  opacity: 1;
+  height: 400px;
+}
+
+.btn-blue {
+  background-color:  #b1b3b4;
+  color: #757e77;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+.btn-blue:hover {
+  background-color: rgb(185, 56, 56);
+  color: white;
+}
+.list{
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list li {
+  display: inline;
+  padding: 10px;
+}
+.list i {
+  font-size: 50px;
+  color:  #b1b3b4;
+}
+.list i:hover {
+  color: black;
+}
+
+#p {
+  margin-bottom: 20px;
+}
+
+.hobbies {
+  display: inline;
+  list-style: none;
+}
